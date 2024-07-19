@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://ct3nhq1whgfdv"]
+
+[ext_resource type="Script" path="res://Cards/White Cards/Creatures/Creature Scripts/Minotaur.gd" id="1_poxfq"]
+[ext_resource type="Texture2D" uid="uid://dphkttogiyj8p" path="res://Art/White Temp.png" id="2_25gl2"]
+
+[node name="Minotaur" type="Node2D"]
+script = ExtResource("1_poxfq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_25gl2")
+
+[node name="attackLabel" type="Label" parent="Sprite2D"]
+offset_left = -38.0
+offset_top = 41.0
+offset_right = -2.0
+offset_bottom = 53.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 8
+
+[node name="defenseLabel" type="Label" parent="Sprite2D"]
+offset_left = -2.0
+offset_top = 41.0
+offset_right = 37.0
+offset_bottom = 53.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 8
+
+[node name="nameLabel" type="Label" parent="Sprite2D"]
+offset_left = -38.0
+offset_top = -53.0
+offset_right = 42.0
+offset_bottom = -39.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 8

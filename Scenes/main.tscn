@@ -1,0 +1,44 @@
+[gd_scene load_steps=11 format=3 uid="uid://d3yb1cibem3ir"]
+
+[ext_resource type="PackedScene" uid="uid://ct3nhq1whgfdv" path="res://Cards/White Cards/Creatures/Minotaur.tscn" id="1_s60yh"]
+[ext_resource type="PackedScene" uid="uid://cim0aspc4kyii" path="res://Cards/White Cards/WhiteCard.tscn" id="1_y3ax7"]
+[ext_resource type="PackedScene" uid="uid://byvfftrdvemtc" path="res://Cards/White Cards/Creatures/Pegasus.tscn" id="2_jmsfc"]
+[ext_resource type="PackedScene" uid="uid://fmpglmd0vbfp" path="res://Cards/White Cards/Creatures/AmazonWarrior.tscn" id="3_5i5or"]
+[ext_resource type="PackedScene" uid="uid://dctm7431avrv0" path="res://Cards/White Cards/Creatures/Sphinx.tscn" id="4_wm1jo"]
+[ext_resource type="PackedScene" uid="uid://314hoj0nrrt7" path="res://Cards/Black Cards/Creatures/Jormungandr.tscn" id="6_ffh4i"]
+[ext_resource type="PackedScene" uid="uid://byna60d30oqie" path="res://Cards/Black Cards/Creatures/Fenrir.tscn" id="7_31ynh"]
+[ext_resource type="PackedScene" uid="uid://bteg5b1d48tn7" path="res://Cards/Black Cards/Creatures/Helheim Draugr.tscn" id="8_d87we"]
+[ext_resource type="PackedScene" uid="uid://cqwsfvudr5lti" path="res://Cards/Black Cards/Creatures/Niohoggr.tscn" id="9_3bc3x"]
+[ext_resource type="PackedScene" uid="uid://dtnq2uywq5hmw" path="res://Cards/Black Cards/Creatures/Valkyrie.tscn" id="10_hc78n"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Minotaur" parent="." instance=ExtResource("1_s60yh")]
+position = Vector2(678, 64)
+
+[node name="Pegasus" parent="." instance=ExtResource("2_jmsfc")]
+position = Vector2(577, 65)
+
+[node name="AmazonWarrior" parent="." instance=ExtResource("3_5i5or")]
+position = Vector2(475, 65)
+
+[node name="Sphinx" parent="." instance=ExtResource("4_wm1jo")]
+position = Vector2(372, 65)
+
+[node name="WhiteCard" parent="." instance=ExtResource("1_y3ax7")]
+position = Vector2(268, 65)
+
+[node name="Jormungandr" parent="." instance=ExtResource("6_ffh4i")]
+position = Vector2(266, 201)
+
+[node name="Fenrir" parent="." instance=ExtResource("7_31ynh")]
+position = Vector2(687, 200)
+
+[node name="HelheimDraugr" parent="." instance=ExtResource("8_d87we")]
+position = Vector2(583, 201)
+
+[node name="Niohoggr" parent="." instance=ExtResource("9_3bc3x")]
+position = Vector2(478, 201)
+
+[node name="Valkyrie" parent="." instance=ExtResource("10_hc78n")]
+position = Vector2(371, 202)
